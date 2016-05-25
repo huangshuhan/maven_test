@@ -10,9 +10,11 @@
   <name>test_mvn</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
+<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <github.maven.repository>file:C://Users/ASUS001/Desktop/res</github.maven.repository>
   </properties>
+
 
   <dependencies>
     <dependency>
@@ -27,4 +29,11 @@
       <version>1.6</version>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+  	<repository>
+  		<id>maven-repository</id>
+  		<url>${github.maven.repository}</url>
+  	</repository>
+  </distributionManagement>
 </project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.snaillove.test</groupId>
+  <artifactId>test_mvn</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160525105141</lastUpdated>
+  </versioning>
+</metadata>
