@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.snaillove.test</groupId>
+  <artifactId>test_mvn</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+
+
+  <name>test_mvn</name>
+  <url>http://maven.apache.org</url>
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <github.maven.repository>file:C://Users/ASUS001/Desktop/res</github.maven.repository>
+  </properties>
+<repositories>
+		<repository>
+			<id>maggandalf-maven-repository</id>
+			<url>https://raw.githubusercontent.com/huangshuhan/maven_test/master/test_mvn</url>
+		</repository>
+	</repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6</version>
+    </dependency>
+  </dependencies>
+  
+  <distributionManagement>
+  	<repository>
+  		<id>maven-repository</id>
+  		<url>${github.maven.repository}</url>
+  	</repository>
+  </distributionManagement>
+  
+</project>
