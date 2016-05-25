@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata>
+<metadata> 
   <groupId>com.snaillove.test</groupId>
   <artifactId>test_mvn</artifactId>
   <versioning>
@@ -8,4 +8,4 @@
     </versions>
     <lastUpdated>20160525120430</lastUpdated>
   </versioning>
-</metadata>
+</metadata> 
